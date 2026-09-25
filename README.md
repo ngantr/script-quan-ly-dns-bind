@@ -6,7 +6,7 @@ Script Bash tự động hóa cấu hình IP, tạo Domain, thiết lập DNS ch
 Đảm bảo máy chủ của bạn đã cài đặt dịch vụ BIND (`named`) và `NetworkManager`. Nếu chưa cài đặt, bạn có thể chạy nhanh lệnh sau:
 
 ```bash
-sudo dnf install bind bind-utils -y
+sudo yum install bind bind-utils -y
 sudo systemctl enable --now named
 ```
 ## Bước 2: Tải hoặc tạo file script
